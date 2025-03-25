@@ -12,6 +12,8 @@ public class Task1 {
         for (int i = 0; i < n; i++) {
             arr[i] = sc.nextInt();  // Read array elements
         }
+
+        System.out.println(Min(arr));
     }
 
 
