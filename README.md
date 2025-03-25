@@ -8,7 +8,7 @@ This repository consists tasks of Algorithms and Data Structures of course by Nu
 
 ## Authors
 
-- [@Nurasyyl Orazbek SE-2405](https://www.github.com/nurashi)
+- [Nurasyl Orazbek SE-2405](https://www.github.com/nurashi)
 
 
 ## Documentation
