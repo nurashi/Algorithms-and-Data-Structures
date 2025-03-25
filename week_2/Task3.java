@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
+
+        double startTime = System.nanoTime();
+
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt(); // reading number
 
@@ -10,6 +13,10 @@ public class Task3 {
         } else {
             System.out.println("Composite");
         }
+
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 100000.0;
+        System.out.println(duration);
     }
 
     /**

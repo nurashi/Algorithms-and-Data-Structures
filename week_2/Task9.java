@@ -2,12 +2,20 @@ import java.util.Scanner;
 
 public class Task9 {
     public static void main(String[] args) {
+
+        double startTime = System.nanoTime();
+
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
         int k = sc.nextInt();
 
         System.out.println(binomialCoff(n, k));
+
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 100000.0;
+        System.out.println(duration);
+
     }
 
     /**

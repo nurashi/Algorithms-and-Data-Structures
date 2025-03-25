@@ -3,6 +3,8 @@ import java.util.Scanner;
 public class Task2 {
 
     public static void main(String[] args) {
+        double startTime = System.nanoTime();
+
         Scanner sc = new Scanner(System.in);
 
         // reading the size of the array
@@ -22,6 +24,11 @@ public class Task2 {
         }
 
         System.out.println(Average(arr));
+
+
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 100000.0;
+        System.out.println(duration);
 
     }
 

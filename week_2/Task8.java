@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Task8 {
     public static void main(String[] args) {
+
+        double startTime = System.nanoTime();
+
         Scanner sc = new Scanner(System.in);
         String s = sc.nextLine(); // reading string s
 
@@ -10,6 +13,10 @@ public class Task8 {
         } else {
             System.out.println("No");
         }
+
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 100000.0;
+        System.out.println(duration);
     }
 
     /**

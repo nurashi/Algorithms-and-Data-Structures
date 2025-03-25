@@ -2,10 +2,17 @@ import java.util.Scanner;
 
 public class Task5 {
     public static void main(String[] args) {
+
+        double startTime = System.nanoTime();
+
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();  // reading number
         System.out.println(fibonacci(n));
-        sc.close();
+
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 100000.0;
+        System.out.println(duration);
+
     }
 
     /**

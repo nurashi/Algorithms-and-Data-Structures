@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Task6 {
     public static void main(String[] args) {
+
+        double startTime = System.nanoTime();
         Scanner sc = new Scanner(System.in);
 
         int a = sc.nextInt();  // reading base number
@@ -9,6 +11,9 @@ public class Task6 {
 
         System.out.println((int)power(a, n)); // assertion to int, just as examples in task
 
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 100000.0;
+        System.out.println(duration);
     }
 
     /**

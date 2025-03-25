@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class GCDRecursive {
     public static void main(String[] args) {
+
+        double startTime = System.nanoTime();
+
         Scanner sc = new Scanner(System.in);
 
 
@@ -10,6 +13,10 @@ public class GCDRecursive {
         int b = sc.nextInt();
 
         System.out.println(gcd(a, b));
+
+        double endTime = System.nanoTime();
+        double duration = (endTime - startTime) / 100000.0;
+        System.out.println(duration);
     }
 
     /**
