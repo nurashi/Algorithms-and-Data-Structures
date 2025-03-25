@@ -12,7 +12,7 @@ public class Task7 {
     /**
      * Recursive function to read and print elements in reverse order.
      * First, it reads the input, then calls itself recursively before printing.
-     *
+     * Time Complexity: linear time O(n), because its just iteretes until count - 1 will be 0
      * @param count Number of elements left to read
      * @param sc    Scanner object for input
      */
