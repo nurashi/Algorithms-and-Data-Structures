@@ -19,7 +19,7 @@ Returns minimum element in the array
 ### Problem 2: Compute the Average of an Array
 Returns avarage of array elements.
 
-## Problem 3: Check if a Number is Prime
+##3 Problem 3: Check if a Number is Prime
 Function that iterates from 2 to sqrt(n) and checks condition is divisiable by any number.
 
 ### 4 Factorial Using Recursion
