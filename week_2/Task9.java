@@ -23,7 +23,7 @@ public class Task9 {
      * Uses the formula: C(n, k) = C(n-1, k-1) + C(n-1, k)
      * Base cases: C(n, 0) = C(n, n) = 1
      * Time Complexity: O(2^n) - Exponential time due to recursive branching.
-     * Space Complexity: O(n) - Recursion depth goes up to n.
+     * Space Complexity: O(n) - Recursion depth goes up to n.1
      *
      * @param n Total elements
      * @param k Chosen elements

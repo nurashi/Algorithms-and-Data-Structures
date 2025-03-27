@@ -8,7 +8,7 @@ public class Task4 {
         Scanner sc = new Scanner(System.in);
 
 
-        int n = sc.nextInt();  // reading number
+        int n = sc.nextInt();  // reading number`
 
         System.out.println(factorial(n));
 

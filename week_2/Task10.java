@@ -18,7 +18,6 @@ public class GCDRecursive {
         double duration = (endTime - startTime) / 100000.0;
         System.out.println(duration);
     }
-
     /**
      * Recursively calculates the Greatest Common Divisor (GCD) using Euclidean Algorithm.
      * Formula: GCD(a, b) = GCD(b, a % b)
